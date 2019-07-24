@@ -7,3 +7,8 @@ https://data.sfgov.org/Energy-and-Environment/San-Francisco-Plant-Finder-Data/vm
 
 Getting Started Reference:
 https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
+
+App Token: wezWlNDbYa280TiouIgUJC0Jq
+Scrt Token: vgz0Of-HvwjGxsOavXhM_7f5jdeIhmOgKJWE
+ 
+
