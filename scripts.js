@@ -1,14 +1,11 @@
-
-// Create a request variable and assign a new XMLHttpRequest object to it.
-var request = new XMLHttpRequest()
-
-// Open a new connection, using the GET request on the URL endpoint
-request.open('GET', 'https://data.sfgov.org/resource/vmnk-skih.json', true)
-
-request.onload = function () {
-  // Begin accessing JSON data here
-  }
-}
-
-// Send request
-request.send()
+$.ajax({
+    url: "https://data.sfgov.org/resource/vmnk-skih.json",
+    type: "GET",
+    data: {
+      "$limit" : 5000,
+      "$$app_token" : "wezWlNDbYa280TiouIgUJC0Jq"
+    }
+}).done(function(data) {
+  alert("Retrieved " + data.length + " records from the dataset!");
+  console.log(data);
+});
